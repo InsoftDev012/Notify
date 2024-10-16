@@ -48,7 +48,7 @@ This template is a modification of the ReactWithAsp template to use Next.js inst
 ### Troubleshooting
 
 If the client does not run correctly, try deleting the `node_modules` folder and reinstalling the packages:
-
+Or see if making the client name in small letter will work.
 ```sh
 cd projectname.client
 rm -rf node_modules
@@ -64,13 +64,3 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 - [Next.js](https://nextjs.org/)
 - [ASP.NET Core](https://dotnet.microsoft.com/apps/aspnet)
-
-## Creating a New Template
-
-You can use this project to create a new template. Navigate to the project folder and run the following command:
-
-```sh
-dotnet new install .
-```
-
-This will install the project as a template, allowing you to use it for new projects.
