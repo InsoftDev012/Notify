@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notify.Server", "notify.Server\notify.Server.csproj", "{1544E3E2-E50B-46CE-9927-FE0A3183B084}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "notify.client", "notify.client\notify.client.esproj", "{032F4B71-B350-4250-83CC-20D1FBCAD2FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1544E3E2-E50B-46CE-9927-FE0A3183B084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1544E3E2-E50B-46CE-9927-FE0A3183B084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1544E3E2-E50B-46CE-9927-FE0A3183B084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1544E3E2-E50B-46CE-9927-FE0A3183B084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032F4B71-B350-4250-83CC-20D1FBCAD2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032F4B71-B350-4250-83CC-20D1FBCAD2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032F4B71-B350-4250-83CC-20D1FBCAD2FA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{032F4B71-B350-4250-83CC-20D1FBCAD2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032F4B71-B350-4250-83CC-20D1FBCAD2FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032F4B71-B350-4250-83CC-20D1FBCAD2FA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D414C946-6914-4ADD-B5C2-1FF4B75A3F69}
+	EndGlobalSection
+EndGlobal
